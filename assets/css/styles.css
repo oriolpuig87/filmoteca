@@ -1,0 +1,258 @@
+
+/** header starts **/
+header {
+    width: 100%;
+}
+/** header nav starts **/
+header nav {
+    width: 1140px;
+    margin: 0 auto;
+}
+header nav ul {
+    display: inline-block;
+    width: 100%;
+}
+header nav ul li {
+    display: inline-block;
+    text-align: center;
+}
+a{
+    cursor: pointer!important;
+}
+a:hover{
+    text-decoration: none!important;
+}
+footer {
+    float: right;
+}
+/** header nav ends **/
+/** header ends **/
+
+.boxed{
+	width:1140px;
+	margin:0 auto;
+	clear:both;
+}
+.peli-box {
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    display: table;
+    vertical-align: middle;
+}
+.peliInner {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ffffffb8;
+    border-radius: 5px;
+    display:none;
+}
+.peli-box:hover .peliInner {
+    display:block;
+}
+.peli-box-title {
+    position: absolute;
+    color: #000;
+    vertical-align: middle;
+    display: table;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    padding: 0px 20px;
+}
+.peli-box-image img {
+    max-width: 100%;
+}
+.peli-box-add {
+    height: 40px;
+    background: #dcdcdc;
+    border-radius: 100%;
+    float: left;
+    width: 40px;
+    text-align: center;
+    line-height: 37px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.modal-add {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: rgba(255,255,255,0.8);
+    top: 0;
+    left: 0;
+}
+.modal-contenido {
+    background: white;
+    z-index: 10000;
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 0px 5px 10px;
+    overflow-y: auto;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.modal-titulo {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    margin: 0px 0px 25px;
+}
+.peli-result {
+    width: 25%;
+    margin-bottom: 15px;
+    float: left;
+    padding: 0 15px;
+    position: relative;
+}
+div.peli-result:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background: rgba(255,255,255,0.8);
+}
+.peli-result-img {
+    float: left;
+    width: 100%;
+}
+.peli-result-img img {
+    max-width: 100%;
+}
+.peli-result-name {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px;
+    float: left;
+    font-size: 12px;
+}
+.searchFilm input {
+    width: 100%;
+}
+textarea.areamodal {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 20px;
+    border: 1px solid #dcdcdc;
+    padding: 5px;
+}
+.input-label {
+    font-weight: 600;
+    width: 100%;
+    margin: 15px 0px 5px;
+}
+.boton-positivo {
+    margin: 0 auto;
+    display: table;
+    margin-top: 25px;
+    color: white;
+    background: green;
+    padding: 7px 45px;
+    border-radius: 10px;
+}
+aside {
+    width: 350px;
+    float: left;
+    padding: 25px;
+    position: fixed;
+    background: #eee;
+    overflow-y: auto;
+}
+section.main {
+    padding: 25px 50px;
+    display: block;
+    float: right;
+}
+#biblio h2 {
+    margin: 20px 0px 25px;
+}
+#biblio a {
+    background: #ccc;
+    padding: 10px 40px;
+    border-radius: 30px;
+    color: #000;
+}
+.user-review-block-title {
+    display: block;
+    float: left;
+}
+#biblio a {
+    background: #ccc;
+    padding: 10px 40px;
+    border-radius: 30px;
+    color: #000;
+    display: block;
+    margin: 0px 10px 10px;
+    line-height: 30px;
+}
+.addbiblio {
+    display: block;
+    float: left;
+    cursor: pointer;
+}
+a#addBiblio {
+    background: #ccc;
+    border-radius: 100px;
+    color: #000;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    display: block;
+    line-height: 44px;
+    text-align: center;
+    margin: 0px 10px 10px;
+}
+.biblioFilms {
+    display: flex;
+    margin-bottom: 15px;
+    float: left;
+    width: 100%;
+}
+.biblioFilmsPar {
+    width: 100%;
+}
+.biblioFilm {
+    float: left;
+    width: 25%;
+}
+.modal-back {
+    position: absolute;
+    left: 40px;
+    top: 30px;
+}
+.modal-close {
+    position: absolute;
+    right: 10px;
+    font-size: 25px;
+    top: 0px;
+    line-height: 26px;
+}
+.titleBox {
+    float: left;
+    width: 100%;
+    margin: 0px 0px 30px;
+}
+.titleBox h2 {
+    float: left;
+    margin: 3px 15px 0px 0px;
+}
+.biblioResults {
+    float: left;
+}
+button.btn.btn-success {
+    width: 100%;
+    margin-top: 15px;
+}
+
