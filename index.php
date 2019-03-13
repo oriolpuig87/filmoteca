@@ -4,7 +4,7 @@
 <?php session_start(); 
 
 if(!$_SESSION['id_usuario']){
-	header("Location: http://peliteca.cat/registro.php");
+	header("Location: http://filmoteca.cat/registro.php");
 	die();
 }
 $userId = $_SESSION['id_usuario'];
