@@ -4,7 +4,7 @@
 <?php session_start(); 
 
 if(!$_SESSION['id_usuario']){
-	header("Location: http://peliteca.cat/registro.php");
+	header("Location:  https://oriolgit.oriolpuig.es/registro.php");
 	die();
 }
 $userId = $_SESSION['id_usuario'];
